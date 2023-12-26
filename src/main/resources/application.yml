@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: local
+  #thymeleaf ??
+  thymeleaf:
+    check-template-location: true
+    prefix: classpath:/templates/   # .html ??? ???? ?? ?? ??(src/main/resources/templates)
+    suffix: .html   # ?? ???
+    cache: false
